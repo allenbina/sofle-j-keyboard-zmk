@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - '~'
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - layer1
