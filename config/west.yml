@@ -1,10 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-      # url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/zmkfirmware
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -20,7 +17,8 @@ manifest:
       revision: main 
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      # revision: main
+      revision: v0.3.0
       import: app/west.yml
   self:
     path: config
