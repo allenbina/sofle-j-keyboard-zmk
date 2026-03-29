@@ -75,11 +75,11 @@
 
         layer0 {
             bindings = <
-&kp ESC           &kp N1        &kp N2  &kp N3  &kp N4            &kp N5       &bt BT_SEL 1  &kp N6     &kp N7         &kp N8      &kp N9   &kp N0         &kp MINUS
-&kp TAB           &kp Q         &kp W   &kp E   &kp R             &kp T        &bt BT_SEL 3  &kp Y      &kp U          &kp I       &kp O    &kp P          &kp BSLH
-&SHIFTCAPS        &kp A         &kp S   &kp D   &kp LEFT_CONTROL  &kp G        &bt BT_SEL 4  &kp H      &kp J          &kp K       &kp L    &kp SEMICOLON  &kp APOS
-&kp LEFT_CONTROL  &kp Z         &kp X   &kp C   &kp V             &kp B        &bt BT_SEL 2  &kp N      &kp M          &kp COMMA   &kp DOT  &kp FSLH       &kp TILDE
-&kp C_MUTE        &kp LEFT_ALT  &mo 2   &trans  &mo 1             &kp ENTER    &bt BT_CLR    &kp SPACE  &kp BACKSPACE  &kp DELETE  &trans   &kp EQUAL
+&kp ESC           &kp N1        &kp N2  &kp N3  &kp N4  &kp N5       &bt BT_SEL 1  &kp N6     &kp N7         &kp N8      &kp N9   &kp N0         &kp MINUS
+&kp TAB           &kp Q         &kp W   &kp E   &kp R   &kp T        &bt BT_SEL 3  &kp Y      &kp U          &kp I       &kp O    &kp P          &kp BSLH
+&SHIFTCAPS        &kp A         &kp S   &kp D   &kp F   &kp G        &bt BT_SEL 4  &kp H      &kp J          &kp K       &kp L    &kp SEMICOLON  &kp APOS
+&kp LEFT_CONTROL  &kp Z         &kp X   &kp C   &kp V   &kp B        &bt BT_SEL 2  &kp N      &kp M          &kp COMMA   &kp DOT  &kp FSLH       &kp TILDE
+&kp C_MUTE        &kp LEFT_ALT  &mo 2   &trans  &mo 1   &kp ENTER    &bt BT_CLR    &kp SPACE  &kp BACKSPACE  &kp DELETE  &trans   &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
