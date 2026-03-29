@@ -31,7 +31,7 @@ layers:
   - A
   - S
   - D
-  - $$mdi:apple-keyboard-control$$
+  - F
   - G
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - H
