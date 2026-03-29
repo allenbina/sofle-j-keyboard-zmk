@@ -28,17 +28,17 @@ layers:
   - P
   - {t: \, s: '|'}
   - '&SHIFTCAPS'
-  - {t: A, h: LEFT WIN}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - $$mdi:apple-keyboard-control$$
   - G
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: RIGHT WIN, s: ':'}
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
